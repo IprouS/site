@@ -1,11 +1,8 @@
 <html>
 
-<head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
-  <title>asdasdsad</title>
-</head>
-
+<?php 
+    include "header.php";
+?>
 <body>
 
   <div class="header">
@@ -29,22 +26,17 @@
       случае, если два элемента, расположенных друг над другом, имеют внешние отступы, и при этом отступ одного из них
       больше, чем отступ другого. В таком случае будет использован больший отступ, а меньший будет проигнорирован
     </div>
-    <div class="block menu-block">
-      <div class="title">menu</div>
-      <ul>
-        <li>
-          <a href="http://sasha/">главная страница</a>
-        </li>
-        <li>
-          <a href="http://sasha/about.html">обо мне</a>
-        </li>
-      </ul>
-    </div>
+ <?php
+    include 'menu.php';
+?>
   </div>
 
   <!--подвал -->
-  <div class="block footer">footer</div>
+<?php
+    include 'footer.php';
+?>
 
 </body>
 
 </html>
+
