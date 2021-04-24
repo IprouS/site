@@ -9,8 +9,7 @@
 
   <div class="header">
     <div class="block title">
-      <span class="title-first">Н</span>
-      <span>аименование сайта</span>
+      <span>Наименование сайта</span>
     </div>
     <div class="block sub-title">привет как дела?</div>
   </div>
