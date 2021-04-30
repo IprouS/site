@@ -1,0 +1,38 @@
+#about {
+    width: 600px;
+    margin: 40px auto;
+}
+.myform{
+    margin-top: 20px;
+}
+.myform div{
+    margin-top: 10px;
+}
+.score_result {
+    margin:0 auto;
+   /* height: 60px;*/    
+    width: 600px;
+    border: 1px solid #c5c5ac;
+    background-color: #f5f5db;
+    border-radius: 5px; 
+    text-align:center;
+}
+.about-title {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#table1 {
+    width:80%;
+    margin: 0 auto;
+    margin-top: 15px;
+    background-color: white;
+    border-collapse: collapse;
+}
+#table1 td,#table1 th {
+    border:1px solid grey;
+    padding:8px;
+} 
+#table1  tr:hover td{
+    background-color: rgb(201, 194, 194);
+}

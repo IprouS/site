@@ -1,19 +1,17 @@
 <html>
 
 <?php 
-    include "header.php";
+    include "meta.php";
 ?>
 <body>
 
-  <div class="header">
-    <div class="block title">
-      <span>Наименование сайта</span>
-    </div>
-    <div class="block sub-title">привет как дела?</div>
-  </div>
+<?php 
+  require "header.php";
+?>
 
   <!--контент -->
   <div class="block content-wrapper">
+
     <div class="block content">
       Если описать понятие «схлопывание внешних отступов» простыми словами, то можно сказать, что это происходит в том
       случае, если два элемента, расположенных друг над другом, имеют внешние отступы, и при этом отступ одного из них
@@ -27,9 +25,9 @@
     </div>
 
  <?php
-    include 'menu.php';
-?>
-  </div>
+    include 'menu.php'; 
+ ?>
+</div>
 
   <!--подвал -->
 <?php

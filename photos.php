@@ -1,18 +1,13 @@
 <html>
 
-<?php 
-    include "header.php";
-?>
+  <?php 
+      include "meta.php";
+  ?>
+  <body>
 
-
-<body>
-
-  <div class="header">
-    <div class="block title">
-      <span>Наименование сайта</span>
-    </div>
-    <div class="block sub-title">привет как дела?</div>
-  </div>
+  <?php 
+    require "header.php";
+  ?>
 
   <!--контент -->
   <div class="block content-wrapper">
@@ -26,8 +21,8 @@
 
   <!--подвал -->
   <?php
-    include 'footer.php';
-?>
+      include 'footer.php';
+  ?>
 
 </body>
 
