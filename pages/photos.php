@@ -1,12 +1,13 @@
 <html>
 
-  <?php 
-      include "meta.php";
+  <?php
+  include "../config.php";
+  include BASE_PATH."meta.php";
   ?>
   <body>
 
   <?php 
-    require "header.php";
+    require BASE_PATH."header.php";
   ?>
 
   <!--контент -->
@@ -15,13 +16,13 @@
         МОИ ФОТО
     </div>
     <?php 
-      include 'menu.php';
+      include BASE_PATH.'menu.php';
     ?>
   </div>
 
   <!--подвал -->
   <?php
-      include 'footer.php';
+      include BASE_PATH.'footer.php';
   ?>
 
 </body>

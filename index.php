@@ -1,12 +1,15 @@
 <html>
 
-<?php 
-    include "meta.php";
+<?php
+//echo "<pre>";print_r($_SERVER);
+
+    include "config.php";
+    include BASE_PATH."meta.php";
 ?>
 <body>
 
 <?php 
-  require "header.php";
+  require BASE_PATH."header.php";
 ?>
 
   <!--контент -->
@@ -25,13 +28,13 @@
     </div>
 
  <?php
-    include 'menu.php'; 
+    include BASE_PATH.'menu.php';
  ?>
 </div>
 
   <!--подвал -->
 <?php
-    include 'footer.php';
+    include BASE_PATH.'footer.php';
 ?>
 
 </body>
